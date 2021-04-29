@@ -11,19 +11,6 @@ module.exports = {
       },
     ],
   },
-  request: {
-    body: {},
-  },
-  expectedError: {
-    status: 400,
-    errors: [
-      {
-        message: "can't resolve reference #/definitions/TestBody",
-        schema: {
-          $ref: '#/definitions/TestBody',
-        },
-        location: 'body',
-      },
-    ],
-  },
+  request: {},
+  constructorError: /can\'t resolve reference #\/definitions\/TestBody from id/
 };

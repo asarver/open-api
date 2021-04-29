@@ -27,17 +27,17 @@
   "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-framework#readme",
   "dependencies": {
     "difunc": "0.0.4",
-    "fs-routes": "^8.0.0",
+    "fs-routes": "file:../fs-routes",
     "glob": "*",
     "is-dir": "^1.0.0",
     "js-yaml": "^3.10.0",
-    "openapi-default-setter": "^8.0.0",
-    "openapi-request-coercer": "^8.0.0",
-    "openapi-request-validator": "^8.0.0",
-    "openapi-response-validator": "^8.0.0",
-    "openapi-schema-validator": "^8.0.0",
-    "openapi-security-handler": "^8.0.0",
-    "openapi-types": "^8.0.0",
+    "openapi-default-setter": "file:../openapi-default-setter",
+    "openapi-request-coercer": "file:../openapi-request-coercer",
+    "openapi-request-validator": "file:../openapi-request-validator",
+    "openapi-response-validator": "file:../openapi-response-validator",
+    "openapi-schema-validator": "file:../openapi-schema-validator",
+    "openapi-security-handler": "file:../openapi-security-handler",
+    "openapi-types": "file:../openapi-types",
     "ts-log": "^2.1.4"
   }
 }

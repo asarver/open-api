@@ -20,17 +20,14 @@ openapi.initialize({
         keywordData,
         data,
         parentSchema,
-        dataPath,
-        parentData,
-        parentDataProperty,
-        rootData
+        dataCtx
       ) {
         if (keywordData === 'Date') {
           const date = new Date(parseInt(data, 10));
           if (isNaN(date.getTime())) {
             return false;
           }
-          parentData[parentDataProperty] = date;
+          dataCtx.parentData[dataCtx.parentDataProperty] = date;
         }
         return true;
       },

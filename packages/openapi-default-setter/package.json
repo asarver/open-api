@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-default-setter#readme",
   "dependencies": {
-    "openapi-types": "^8.0.0"
+    "openapi-types": "file:../openapi-types"
   }
 }
